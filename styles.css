@@ -1,0 +1,52 @@
+*{
+box-sizing: border-box;
+}
+.container{
+    width: 15rem;
+    height: auto;
+    border: 1px solid;
+    border-radius: .25rem;
+    padding: .5rem;
+    margin: 5rem auto;
+}
+input{
+    width: 100%;
+    height: 3rem;
+    border-radius: .25rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    font-size: larger;
+    background: #ccc;
+    margin: .25rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0;
+}
+.key.colored{
+    background: rgb(48, 48, 131);
+    color: #fff;
+}
+.key.colored:hover{
+    background: rgb(128, 128, 202);
+    color: #fff;
+}
+.key.colored:active{
+    background: rgb(147, 147, 185);
+    color: #fff;
+}
+.key:hover{
+    background: #ddd;
+}
+.key:active{
+    background: #ccc;
+}
+
